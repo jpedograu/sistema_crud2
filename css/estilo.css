@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(45deg,rgb(116, 63, 201),rgb(193, 58, 206));
+  }
+  div{
+      background-color: rgb(19, 19, 20);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      padding: 15px;
+      border-radius: 15px;
+      color: rgb(231, 255, 231);
+      box-shadow: 15px ,red;
+  }
+  input{
+      padding: 15px;
+      border:none;
+      outline: none;
+      border-radius: 15px;
+      font-size: 15px;
+  
+  }
+  button{
+      background-color: rgb(246, 246, 246);
+      width: 100%;
+      padding: 10px;
+      color: rgb(0, 0, 0);
+      font-size: 15px;
+      border: none;
+      border-radius: 10%;
+      }
+  button:hover{
+      background-image: linear-gradient(45deg,rgb(141, 147, 163),rgb(68, 27, 218));
+  
+  }
+  .m{
+     color: rgb(219, 76, 76);
+  }
+  .n{
+      color: rgb(250, 56, 192);
+  }
