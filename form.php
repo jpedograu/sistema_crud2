@@ -11,5 +11,6 @@ $senha = $_POST['senha'];
 
 
 
-$resultado = mysql_query($conexao,"INSERT INTO login(nome,email,telefone,data_nascimento,cidade,estado,endereço,senha)")
+$resultado = mysqli_query($conexao,"INSERT INTO login(nome,email,telefone,data_nascimento,cidade,estado,endereço,senha) VALUES ('$nome', '$email', '$telefone', '$data_nascimento', '$estado'
+'$endereço', '$senha');")
 ?>
