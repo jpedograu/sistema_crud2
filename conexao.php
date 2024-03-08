@@ -2,7 +2,7 @@
 $host ='localhost';
 $user ='root';
 $senha='';
-$bd = 'sistema';
+$bd = 'sergio';
 
 $conexao = new mysqli($host,$user,$senha,$bd);
  if (!$conexao){
@@ -11,6 +11,4 @@ $conexao = new mysqli($host,$user,$senha,$bd);
  else{
     echo 'deu certo a conexao';
  }
- 
-
 ?>

@@ -32,7 +32,7 @@
                 </br>
                 
                 <div class="inputbox">,
-                    <label for="data_nascimento"><b>Data de nascimento</b></label>
+                    <label for="data_nascimento"><b>Data_nascimento</b></label>
                     <input type="date" name="data_nascimento" id="data_nascimento" required>
                   <br></br>
 
